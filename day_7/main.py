@@ -1,3 +1,5 @@
+# Hangman
+
 import random
 import word_list
 import art
