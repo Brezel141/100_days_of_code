@@ -1,0 +1,7 @@
+This Python script is a simple number guessing game. It starts by importing the random and replit modules. The random module is used to generate a random number for the user to guess, and the replit module is used to clear the console.
+
+The set_difficulty function sets the difficulty of the game. The difficulty is determined by the number of guesses the user has. If the difficulty is 'easy', the user gets 10 guesses, otherwise they get 5.
+
+The play_game function is the main game loop. It first prints the number of guesses remaining, then prompts the user for a guess. If the guess is correct, it prints a win message and ends the game. If the guess is too low or too high, it decrements the number of guesses and prints a message indicating whether the guess was too low or too high. If the user runs out of guesses, it prints a loss message and the correct number, and ends the game.
+
+The script ends with a loop that starts a new game. It first prints a welcome message and generates a random number. It then prompts the user for the difficulty, sets the difficulty, and starts the game. After the game ends, it asks the user if they want to play again. If they do, it clears the console and starts a new game. If they don't, it prints a goodbye message and ends the script.
